@@ -1,0 +1,247 @@
+
+@font-face {
+  font-family: 'colossalis_bqbold';
+  src: url('colossalis_bq_bold-webfont.woff2') format('woff2'),
+       url('colossalis_bq_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;}
+
+h1 {
+  position: center;
+}
+header {
+  font-family: 'colossalis_bqbold';
+  padding: 160px 0 160px;
+}
+
+section {
+  font-family: Arial Bold, sans-serif;
+  padding: 59px 0;
+}
+
+.nav {
+  font-family: 'colossalis_bqbold';
+}
+
+.bg-light {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+#page-top {
+  background-color: rgb(244, 130, 34) !important;
+}
+
+.navbar-nav {
+  font-family: 'colossalis_bqbold';
+  font-size: 1.3rem;
+  color: white !important;
+}
+
+.h2 {
+  font-family: 'colossalis_bqbold' !important;
+}
+
+
+#mainNav {
+  background-color: rgb(244, 130, 34) !important;
+  }
+
+.bg-primary {
+  background-image: url("bg.jpg") !important;
+}
+
+#services {
+  background-image: url("brickwall.jpg") !important;
+
+}
+
+h4 {
+  border-left-width: 0em;
+  background-color: red;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  position: relative;
+  text-align: center;
+  width: 100% !important;
+  box-sizing: border-box;
+
+
+}
+
+#szlogen {
+  margin-top: 3%;
+  margin-right: 30%;
+  margin-left: 30%;
+  font-size: 1.7rem;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(244, 130, 34) !important;
+  box-sizing: border-box !important;
+
+}
+
+#references {
+  background-color: rgb(244, 130, 34) !important;
+
+}
+
+#about {
+  background-color: rgb(244, 130, 34) !important;
+  }
+
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .mb-100 {
+    margin-bottom: 30px;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .section-title {
+    position: relative;
+  }
+  .section-title p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+  .section-title h4 {
+    font-family: 'colossalis_bqbold';
+    font-size: 40px;
+    font-weight: 600;
+    position: center;
+    padding-bottom: 0px;
+    display: center;
+    justify-content: center;
+    color: white;
+  }
+
+  /*.section-title h4::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #d8d8d8;
+    bottom: 0;
+    left: 50%;
+    margin-left: -40px;
+  }
+  .section-title h4::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #FF7200;
+    left: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+  } */
+  .contact {
+    background-image: url("construction.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+  }
+  .contact-form input,
+  textarea {
+    width: 100%;
+    border: 1px solid #555;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #fff;
+  }
+  .contact:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    z-index: -1;
+    opacity: .85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+  }
+  .single-contact {
+    text-align: left;
+    position: relative;
+    padding-left: 70px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  .single-contact i.fa {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background-color: #FF7200;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .single-contact h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .single-contact p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .contact-form input[type="submit"] {
+    background-color: #FF7200;
+    border: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-transition: .4s;
+    transition: .4s
+  }
+  .contact-form input[type="submit"]:hover {
+    background-color: #CC5B00
+  }
+  .contact-form input:focus, textarea:focus {
+    border-color: #CC5B00
+  }
+
+  .bossname {
+    font-family: 'colossalis_bqbold';
+    font-size: 1.3em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  footer {
+    background-color: #ffeaea;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ff0000' fill-opacity='0.15'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  h5 {
+    line-height: 1.6;
+  }
+
+  button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #333;
+    margin: 4px;
+  }
+  .hoverbuttons{
+    display: flex;
+    justify-content: space-around;
+  }
